@@ -9,7 +9,7 @@ HandlerThread的理解和基础使用
  * 使用步骤
  * 1.实例化handlerThread
  * 2.start 该线程
- * 3.创建Handler,传入handlerThread 的looper 对象,重新handlemessage 方法
+ * 3.创建Handler,传入handlerThread 的looper 对象,重写handlemessage 方法
  * 4.使用handler.sendMessage等方法发送消息
  * 5.不使用时,可以调用handlerThread.quit() 退出线程
  */
